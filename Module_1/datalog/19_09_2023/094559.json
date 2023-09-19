@@ -1,0 +1,1042 @@
+{
+    "query": "select name, attack from creature",
+    "resultcount": 259,
+    "result": [
+        {
+            "name": "Killer Bee",
+            "attack": 3
+        },
+        {
+            "name": "Killer Bee",
+            "attack": 3
+        },
+        {
+            "name": "Killer Bee",
+            "attack": 3
+        },
+        {
+            "name": "Killer Bee",
+            "attack": 3
+        },
+        {
+            "name": "Killer Bee",
+            "attack": 3
+        },
+        {
+            "name": "Killer Bee",
+            "attack": 3
+        },
+        {
+            "name": "Killer Bee",
+            "attack": 3
+        },
+        {
+            "name": "Killer Bee",
+            "attack": 3
+        },
+        {
+            "name": "Killer Bee",
+            "attack": 3
+        },
+        {
+            "name": "Bat",
+            "attack": 8
+        },
+        {
+            "name": "Bat",
+            "attack": 8
+        },
+        {
+            "name": "Bat",
+            "attack": 8
+        },
+        {
+            "name": "Bat",
+            "attack": 8
+        },
+        {
+            "name": "Bat",
+            "attack": 8
+        },
+        {
+            "name": "Bat",
+            "attack": 8
+        },
+        {
+            "name": "Bat",
+            "attack": 8
+        },
+        {
+            "name": "Bat",
+            "attack": 8
+        },
+        {
+            "name": "Bat",
+            "attack": 8
+        },
+        {
+            "name": "Bat",
+            "attack": 8
+        },
+        {
+            "name": "Bat",
+            "attack": 8
+        },
+        {
+            "name": "Bat",
+            "attack": 8
+        },
+        {
+            "name": "Bat",
+            "attack": 8
+        },
+        {
+            "name": "Imp",
+            "attack": 4
+        },
+        {
+            "name": "Imp",
+            "attack": 4
+        },
+        {
+            "name": "Imp",
+            "attack": 4
+        },
+        {
+            "name": "Imp",
+            "attack": 4
+        },
+        {
+            "name": "Imp",
+            "attack": 4
+        },
+        {
+            "name": "Imp",
+            "attack": 4
+        },
+        {
+            "name": "Imp",
+            "attack": 4
+        },
+        {
+            "name": "Imp",
+            "attack": 4
+        },
+        {
+            "name": "Imp",
+            "attack": 4
+        },
+        {
+            "name": "Imp",
+            "attack": 4
+        },
+        {
+            "name": "Imp",
+            "attack": 4
+        },
+        {
+            "name": "Tarantula",
+            "attack": 18
+        },
+        {
+            "name": "Tarantula",
+            "attack": 18
+        },
+        {
+            "name": "Tarantula",
+            "attack": 18
+        },
+        {
+            "name": "Tarantula",
+            "attack": 18
+        },
+        {
+            "name": "Tarantula",
+            "attack": 18
+        },
+        {
+            "name": "Tarantula",
+            "attack": 18
+        },
+        {
+            "name": "Tarantula",
+            "attack": 18
+        },
+        {
+            "name": "Tarantula",
+            "attack": 18
+        },
+        {
+            "name": "Tarantula",
+            "attack": 18
+        },
+        {
+            "name": "Goblin",
+            "attack": 30
+        },
+        {
+            "name": "Goblin",
+            "attack": 30
+        },
+        {
+            "name": "Goblin",
+            "attack": 30
+        },
+        {
+            "name": "Goblin",
+            "attack": 30
+        },
+        {
+            "name": "Goblin",
+            "attack": 30
+        },
+        {
+            "name": "Goblin",
+            "attack": 30
+        },
+        {
+            "name": "Goblin",
+            "attack": 30
+        },
+        {
+            "name": "Goblin",
+            "attack": 30
+        },
+        {
+            "name": "Goblin",
+            "attack": 30
+        },
+        {
+            "name": "Goblin",
+            "attack": 30
+        },
+        {
+            "name": "Goblin",
+            "attack": 30
+        },
+        {
+            "name": "Orc",
+            "attack": 30
+        },
+        {
+            "name": "Orc",
+            "attack": 30
+        },
+        {
+            "name": "Orc",
+            "attack": 30
+        },
+        {
+            "name": "Orc",
+            "attack": 30
+        },
+        {
+            "name": "Orc",
+            "attack": 30
+        },
+        {
+            "name": "Orc",
+            "attack": 30
+        },
+        {
+            "name": "Orc",
+            "attack": 30
+        },
+        {
+            "name": "Orc",
+            "attack": 30
+        },
+        {
+            "name": "Orc",
+            "attack": 30
+        },
+        {
+            "name": "Orc",
+            "attack": 30
+        },
+        {
+            "name": "Orc",
+            "attack": 30
+        },
+        {
+            "name": "Orc",
+            "attack": 30
+        },
+        {
+            "name": "Orc",
+            "attack": 30
+        },
+        {
+            "name": "Orc",
+            "attack": 30
+        },
+        {
+            "name": "Orc",
+            "attack": 30
+        },
+        {
+            "name": "Kobold",
+            "attack": 30
+        },
+        {
+            "name": "Kobold",
+            "attack": 30
+        },
+        {
+            "name": "Kobold",
+            "attack": 30
+        },
+        {
+            "name": "Kobold",
+            "attack": 30
+        },
+        {
+            "name": "Kobold",
+            "attack": 30
+        },
+        {
+            "name": "Kobold",
+            "attack": 30
+        },
+        {
+            "name": "Kobold",
+            "attack": 30
+        },
+        {
+            "name": "Kobold",
+            "attack": 30
+        },
+        {
+            "name": "Kobold",
+            "attack": 30
+        },
+        {
+            "name": "Kobold",
+            "attack": 30
+        },
+        {
+            "name": "Kobold",
+            "attack": 30
+        },
+        {
+            "name": "Kobold",
+            "attack": 30
+        },
+        {
+            "name": "Kobold",
+            "attack": 30
+        },
+        {
+            "name": "Kobold",
+            "attack": 30
+        },
+        {
+            "name": "Kobold",
+            "attack": 30
+        },
+        {
+            "name": "Kobold",
+            "attack": 30
+        },
+        {
+            "name": "Kobold",
+            "attack": 30
+        },
+        {
+            "name": "Gargoyle",
+            "attack": 44
+        },
+        {
+            "name": "Gargoyle",
+            "attack": 44
+        },
+        {
+            "name": "Gargoyle",
+            "attack": 44
+        },
+        {
+            "name": "Gargoyle",
+            "attack": 44
+        },
+        {
+            "name": "Gargoyle",
+            "attack": 44
+        },
+        {
+            "name": "Gargoyle",
+            "attack": 44
+        },
+        {
+            "name": "Gargoyle",
+            "attack": 44
+        },
+        {
+            "name": "Gargoyle",
+            "attack": 44
+        },
+        {
+            "name": "Gargoyle",
+            "attack": 44
+        },
+        {
+            "name": "Gargoyle",
+            "attack": 44
+        },
+        {
+            "name": "Ghost",
+            "attack": 40
+        },
+        {
+            "name": "Ghost",
+            "attack": 40
+        },
+        {
+            "name": "Ghost",
+            "attack": 40
+        },
+        {
+            "name": "Ghost",
+            "attack": 40
+        },
+        {
+            "name": "Ghost",
+            "attack": 40
+        },
+        {
+            "name": "Ghost",
+            "attack": 40
+        },
+        {
+            "name": "Ghost",
+            "attack": 40
+        },
+        {
+            "name": "Ghost",
+            "attack": 40
+        },
+        {
+            "name": "Ghost",
+            "attack": 40
+        },
+        {
+            "name": "Ghost",
+            "attack": 40
+        },
+        {
+            "name": "Magog",
+            "attack": 60
+        },
+        {
+            "name": "Magog",
+            "attack": 60
+        },
+        {
+            "name": "Magog",
+            "attack": 60
+        },
+        {
+            "name": "Magog",
+            "attack": 60
+        },
+        {
+            "name": "Magog",
+            "attack": 60
+        },
+        {
+            "name": "Magog",
+            "attack": 60
+        },
+        {
+            "name": "Magog",
+            "attack": 60
+        },
+        {
+            "name": "Magog",
+            "attack": 60
+        },
+        {
+            "name": "Magog",
+            "attack": 60
+        },
+        {
+            "name": "Magog",
+            "attack": 60
+        },
+        {
+            "name": "Magog",
+            "attack": 60
+        },
+        {
+            "name": "Magog",
+            "attack": 60
+        },
+        {
+            "name": "Magog",
+            "attack": 60
+        },
+        {
+            "name": "Magog",
+            "attack": 60
+        },
+        {
+            "name": "Magog",
+            "attack": 60
+        },
+        {
+            "name": "Magog",
+            "attack": 60
+        },
+        {
+            "name": "Wraith",
+            "attack": 75
+        },
+        {
+            "name": "Wraith",
+            "attack": 75
+        },
+        {
+            "name": "Wraith",
+            "attack": 75
+        },
+        {
+            "name": "Wraith",
+            "attack": 75
+        },
+        {
+            "name": "Wraith",
+            "attack": 75
+        },
+        {
+            "name": "Wraith",
+            "attack": 75
+        },
+        {
+            "name": "Troll",
+            "attack": 95
+        },
+        {
+            "name": "Troll",
+            "attack": 95
+        },
+        {
+            "name": "Troll",
+            "attack": 95
+        },
+        {
+            "name": "Troll",
+            "attack": 95
+        },
+        {
+            "name": "Troll",
+            "attack": 95
+        },
+        {
+            "name": "Troll",
+            "attack": 95
+        },
+        {
+            "name": "Troll",
+            "attack": 95
+        },
+        {
+            "name": "Troll",
+            "attack": 95
+        },
+        {
+            "name": "Troll",
+            "attack": 95
+        },
+        {
+            "name": "Golem",
+            "attack": 100
+        },
+        {
+            "name": "Golem",
+            "attack": 100
+        },
+        {
+            "name": "Golem",
+            "attack": 100
+        },
+        {
+            "name": "Golem",
+            "attack": 100
+        },
+        {
+            "name": "Golem",
+            "attack": 100
+        },
+        {
+            "name": "Golem",
+            "attack": 100
+        },
+        {
+            "name": "Golem",
+            "attack": 100
+        },
+        {
+            "name": "Golem",
+            "attack": 100
+        },
+        {
+            "name": "Golem",
+            "attack": 100
+        },
+        {
+            "name": "Golem",
+            "attack": 100
+        },
+        {
+            "name": "Golem",
+            "attack": 100
+        },
+        {
+            "name": "Demon",
+            "attack": 150
+        },
+        {
+            "name": "Demon",
+            "attack": 150
+        },
+        {
+            "name": "Demon",
+            "attack": 150
+        },
+        {
+            "name": "Demon",
+            "attack": 150
+        },
+        {
+            "name": "Demon",
+            "attack": 150
+        },
+        {
+            "name": "Demon",
+            "attack": 150
+        },
+        {
+            "name": "Demon",
+            "attack": 150
+        },
+        {
+            "name": "Troglodyte",
+            "attack": 120
+        },
+        {
+            "name": "Troglodyte",
+            "attack": 120
+        },
+        {
+            "name": "Troglodyte",
+            "attack": 120
+        },
+        {
+            "name": "Troglodyte",
+            "attack": 120
+        },
+        {
+            "name": "Troglodyte",
+            "attack": 120
+        },
+        {
+            "name": "Troglodyte",
+            "attack": 120
+        },
+        {
+            "name": "Troglodyte",
+            "attack": 120
+        },
+        {
+            "name": "Troglodyte",
+            "attack": 120
+        },
+        {
+            "name": "Troglodyte",
+            "attack": 120
+        },
+        {
+            "name": "Valkyrie",
+            "attack": 100
+        },
+        {
+            "name": "Valkyrie",
+            "attack": 100
+        },
+        {
+            "name": "Valkyrie",
+            "attack": 100
+        },
+        {
+            "name": "Valkyrie",
+            "attack": 100
+        },
+        {
+            "name": "Valkyrie",
+            "attack": 100
+        },
+        {
+            "name": "Valkyrie",
+            "attack": 100
+        },
+        {
+            "name": "Valkyrie",
+            "attack": 100
+        },
+        {
+            "name": "Valkyrie",
+            "attack": 100
+        },
+        {
+            "name": "Valkyrie",
+            "attack": 100
+        },
+        {
+            "name": "Valkyrie",
+            "attack": 100
+        },
+        {
+            "name": "Valkyrie",
+            "attack": 100
+        },
+        {
+            "name": "Valkyrie",
+            "attack": 100
+        },
+        {
+            "name": "Valkyrie",
+            "attack": 100
+        },
+        {
+            "name": "Valkyrie",
+            "attack": 100
+        },
+        {
+            "name": "Centaur",
+            "attack": 165
+        },
+        {
+            "name": "Centaur",
+            "attack": 165
+        },
+        {
+            "name": "Centaur",
+            "attack": 165
+        },
+        {
+            "name": "Centaur",
+            "attack": 165
+        },
+        {
+            "name": "Centaur",
+            "attack": 165
+        },
+        {
+            "name": "Centaur",
+            "attack": 165
+        },
+        {
+            "name": "Centaur",
+            "attack": 165
+        },
+        {
+            "name": "Centaur",
+            "attack": 165
+        },
+        {
+            "name": "Gorgon",
+            "attack": 185
+        },
+        {
+            "name": "Gorgon",
+            "attack": 185
+        },
+        {
+            "name": "Gorgon",
+            "attack": 185
+        },
+        {
+            "name": "Gorgon",
+            "attack": 185
+        },
+        {
+            "name": "Gorgon",
+            "attack": 185
+        },
+        {
+            "name": "Gorgon",
+            "attack": 185
+        },
+        {
+            "name": "Gorgon",
+            "attack": 185
+        },
+        {
+            "name": "Gorgon",
+            "attack": 185
+        },
+        {
+            "name": "Cyclops",
+            "attack": 240
+        },
+        {
+            "name": "Cyclops",
+            "attack": 240
+        },
+        {
+            "name": "Cyclops",
+            "attack": 240
+        },
+        {
+            "name": "Cyclops",
+            "attack": 240
+        },
+        {
+            "name": "Cyclops",
+            "attack": 240
+        },
+        {
+            "name": "Cyclops",
+            "attack": 240
+        },
+        {
+            "name": "Cyclops",
+            "attack": 240
+        },
+        {
+            "name": "Cyclops",
+            "attack": 240
+        },
+        {
+            "name": "Hydra",
+            "attack": 290
+        },
+        {
+            "name": "Hydra",
+            "attack": 290
+        },
+        {
+            "name": "Hydra",
+            "attack": 290
+        },
+        {
+            "name": "Hydra",
+            "attack": 290
+        },
+        {
+            "name": "Hydra",
+            "attack": 290
+        },
+        {
+            "name": "Hydra",
+            "attack": 290
+        },
+        {
+            "name": "Hydra",
+            "attack": 290
+        },
+        {
+            "name": "Hydra",
+            "attack": 290
+        },
+        {
+            "name": "Hydra",
+            "attack": 290
+        },
+        {
+            "name": "Hydra",
+            "attack": 290
+        },
+        {
+            "name": "Hydra",
+            "attack": 290
+        },
+        {
+            "name": "Hydra",
+            "attack": 290
+        },
+        {
+            "name": "Hydra",
+            "attack": 290
+        },
+        {
+            "name": "Hydra",
+            "attack": 290
+        },
+        {
+            "name": "Hydra",
+            "attack": 290
+        },
+        {
+            "name": "Pterodactyl",
+            "attack": 405
+        },
+        {
+            "name": "Pterodactyl",
+            "attack": 405
+        },
+        {
+            "name": "Pterodactyl",
+            "attack": 405
+        },
+        {
+            "name": "Pterodactyl",
+            "attack": 405
+        },
+        {
+            "name": "Pterodactyl",
+            "attack": 405
+        },
+        {
+            "name": "Pterodactyl",
+            "attack": 405
+        },
+        {
+            "name": "Pterodactyl",
+            "attack": 405
+        },
+        {
+            "name": "Titan",
+            "attack": 680
+        },
+        {
+            "name": "Titan",
+            "attack": 680
+        },
+        {
+            "name": "Titan",
+            "attack": 680
+        },
+        {
+            "name": "Titan",
+            "attack": 680
+        },
+        {
+            "name": "Titan",
+            "attack": 680
+        },
+        {
+            "name": "Minotaur",
+            "attack": 520
+        },
+        {
+            "name": "Minotaur",
+            "attack": 520
+        },
+        {
+            "name": "Minotaur",
+            "attack": 520
+        },
+        {
+            "name": "Minotaur",
+            "attack": 520
+        },
+        {
+            "name": "Minotaur",
+            "attack": 520
+        },
+        {
+            "name": "Minotaur",
+            "attack": 520
+        },
+        {
+            "name": "Minotaur",
+            "attack": 520
+        },
+        {
+            "name": "Behemoth",
+            "attack": 610
+        },
+        {
+            "name": "Behemoth",
+            "attack": 610
+        },
+        {
+            "name": "Behemoth",
+            "attack": 610
+        },
+        {
+            "name": "Behemoth",
+            "attack": 610
+        },
+        {
+            "name": "Behemoth",
+            "attack": 610
+        },
+        {
+            "name": "Behemoth",
+            "attack": 610
+        },
+        {
+            "name": "Behemoth",
+            "attack": 610
+        },
+        {
+            "name": "Behemoth",
+            "attack": 610
+        },
+        {
+            "name": "Behemoth",
+            "attack": 610
+        },
+        {
+            "name": "Behemoth",
+            "attack": 610
+        },
+        {
+            "name": "Behemoth",
+            "attack": 610
+        },
+        {
+            "name": "Wyvern",
+            "attack": 785
+        },
+        {
+            "name": "Wyvern",
+            "attack": 785
+        },
+        {
+            "name": "Wyvern",
+            "attack": 785
+        },
+        {
+            "name": "Wyvern",
+            "attack": 785
+        },
+        {
+            "name": "Wyvern",
+            "attack": 785
+        },
+        {
+            "name": "Wyvern",
+            "attack": 785
+        },
+        {
+            "name": "Wyvern",
+            "attack": 785
+        },
+        {
+            "name": "Wyvern",
+            "attack": 785
+        },
+        {
+            "name": "Red Dragon",
+            "attack": 2500
+        },
+        {
+            "name": "Green Dragon",
+            "attack": 2500
+        },
+        {
+            "name": "Brown Dragon",
+            "attack": 3000
+        },
+        {
+            "name": "Black Dragon",
+            "attack": 5000
+        },
+        {
+            "name": "White Dragon",
+            "attack": 7500
+        }
+    ]
+}

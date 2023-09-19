@@ -1,0 +1,9 @@
+{
+    "query": "select id from person where id is 7",
+    "resultcount": 1,
+    "result": [
+        {
+            "id": 7
+        }
+    ]
+}

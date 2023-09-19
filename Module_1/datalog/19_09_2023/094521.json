@@ -1,0 +1,783 @@
+{
+    "query": "select defense from creature",
+    "resultcount": 259,
+    "result": [
+        {
+            "defense": 5
+        },
+        {
+            "defense": 5
+        },
+        {
+            "defense": 5
+        },
+        {
+            "defense": 5
+        },
+        {
+            "defense": 5
+        },
+        {
+            "defense": 5
+        },
+        {
+            "defense": 5
+        },
+        {
+            "defense": 5
+        },
+        {
+            "defense": 5
+        },
+        {
+            "defense": 10
+        },
+        {
+            "defense": 10
+        },
+        {
+            "defense": 10
+        },
+        {
+            "defense": 10
+        },
+        {
+            "defense": 10
+        },
+        {
+            "defense": 10
+        },
+        {
+            "defense": 10
+        },
+        {
+            "defense": 10
+        },
+        {
+            "defense": 10
+        },
+        {
+            "defense": 10
+        },
+        {
+            "defense": 10
+        },
+        {
+            "defense": 10
+        },
+        {
+            "defense": 10
+        },
+        {
+            "defense": 15
+        },
+        {
+            "defense": 15
+        },
+        {
+            "defense": 15
+        },
+        {
+            "defense": 15
+        },
+        {
+            "defense": 15
+        },
+        {
+            "defense": 15
+        },
+        {
+            "defense": 15
+        },
+        {
+            "defense": 15
+        },
+        {
+            "defense": 15
+        },
+        {
+            "defense": 15
+        },
+        {
+            "defense": 15
+        },
+        {
+            "defense": 7
+        },
+        {
+            "defense": 7
+        },
+        {
+            "defense": 7
+        },
+        {
+            "defense": 7
+        },
+        {
+            "defense": 7
+        },
+        {
+            "defense": 7
+        },
+        {
+            "defense": 7
+        },
+        {
+            "defense": 7
+        },
+        {
+            "defense": 7
+        },
+        {
+            "defense": 10
+        },
+        {
+            "defense": 10
+        },
+        {
+            "defense": 10
+        },
+        {
+            "defense": 10
+        },
+        {
+            "defense": 10
+        },
+        {
+            "defense": 10
+        },
+        {
+            "defense": 10
+        },
+        {
+            "defense": 10
+        },
+        {
+            "defense": 10
+        },
+        {
+            "defense": 10
+        },
+        {
+            "defense": 10
+        },
+        {
+            "defense": 20
+        },
+        {
+            "defense": 20
+        },
+        {
+            "defense": 20
+        },
+        {
+            "defense": 20
+        },
+        {
+            "defense": 20
+        },
+        {
+            "defense": 20
+        },
+        {
+            "defense": 20
+        },
+        {
+            "defense": 20
+        },
+        {
+            "defense": 20
+        },
+        {
+            "defense": 20
+        },
+        {
+            "defense": 20
+        },
+        {
+            "defense": 20
+        },
+        {
+            "defense": 20
+        },
+        {
+            "defense": 20
+        },
+        {
+            "defense": 20
+        },
+        {
+            "defense": 60
+        },
+        {
+            "defense": 60
+        },
+        {
+            "defense": 60
+        },
+        {
+            "defense": 60
+        },
+        {
+            "defense": 60
+        },
+        {
+            "defense": 60
+        },
+        {
+            "defense": 60
+        },
+        {
+            "defense": 60
+        },
+        {
+            "defense": 60
+        },
+        {
+            "defense": 60
+        },
+        {
+            "defense": 60
+        },
+        {
+            "defense": 60
+        },
+        {
+            "defense": 60
+        },
+        {
+            "defense": 60
+        },
+        {
+            "defense": 60
+        },
+        {
+            "defense": 60
+        },
+        {
+            "defense": 60
+        },
+        {
+            "defense": 30
+        },
+        {
+            "defense": 30
+        },
+        {
+            "defense": 30
+        },
+        {
+            "defense": 30
+        },
+        {
+            "defense": 30
+        },
+        {
+            "defense": 30
+        },
+        {
+            "defense": 30
+        },
+        {
+            "defense": 30
+        },
+        {
+            "defense": 30
+        },
+        {
+            "defense": 30
+        },
+        {
+            "defense": 65
+        },
+        {
+            "defense": 65
+        },
+        {
+            "defense": 65
+        },
+        {
+            "defense": 65
+        },
+        {
+            "defense": 65
+        },
+        {
+            "defense": 65
+        },
+        {
+            "defense": 65
+        },
+        {
+            "defense": 65
+        },
+        {
+            "defense": 65
+        },
+        {
+            "defense": 65
+        },
+        {
+            "defense": 60
+        },
+        {
+            "defense": 60
+        },
+        {
+            "defense": 60
+        },
+        {
+            "defense": 60
+        },
+        {
+            "defense": 60
+        },
+        {
+            "defense": 60
+        },
+        {
+            "defense": 60
+        },
+        {
+            "defense": 60
+        },
+        {
+            "defense": 60
+        },
+        {
+            "defense": 60
+        },
+        {
+            "defense": 60
+        },
+        {
+            "defense": 60
+        },
+        {
+            "defense": 60
+        },
+        {
+            "defense": 60
+        },
+        {
+            "defense": 60
+        },
+        {
+            "defense": 60
+        },
+        {
+            "defense": 25
+        },
+        {
+            "defense": 25
+        },
+        {
+            "defense": 25
+        },
+        {
+            "defense": 25
+        },
+        {
+            "defense": 25
+        },
+        {
+            "defense": 25
+        },
+        {
+            "defense": 70
+        },
+        {
+            "defense": 70
+        },
+        {
+            "defense": 70
+        },
+        {
+            "defense": 70
+        },
+        {
+            "defense": 70
+        },
+        {
+            "defense": 70
+        },
+        {
+            "defense": 70
+        },
+        {
+            "defense": 70
+        },
+        {
+            "defense": 70
+        },
+        {
+            "defense": 75
+        },
+        {
+            "defense": 75
+        },
+        {
+            "defense": 75
+        },
+        {
+            "defense": 75
+        },
+        {
+            "defense": 75
+        },
+        {
+            "defense": 75
+        },
+        {
+            "defense": 75
+        },
+        {
+            "defense": 75
+        },
+        {
+            "defense": 75
+        },
+        {
+            "defense": 75
+        },
+        {
+            "defense": 75
+        },
+        {
+            "defense": 45
+        },
+        {
+            "defense": 45
+        },
+        {
+            "defense": 45
+        },
+        {
+            "defense": 45
+        },
+        {
+            "defense": 45
+        },
+        {
+            "defense": 45
+        },
+        {
+            "defense": 45
+        },
+        {
+            "defense": 80
+        },
+        {
+            "defense": 80
+        },
+        {
+            "defense": 80
+        },
+        {
+            "defense": 80
+        },
+        {
+            "defense": 80
+        },
+        {
+            "defense": 80
+        },
+        {
+            "defense": 80
+        },
+        {
+            "defense": 80
+        },
+        {
+            "defense": 80
+        },
+        {
+            "defense": 110
+        },
+        {
+            "defense": 110
+        },
+        {
+            "defense": 110
+        },
+        {
+            "defense": 110
+        },
+        {
+            "defense": 110
+        },
+        {
+            "defense": 110
+        },
+        {
+            "defense": 110
+        },
+        {
+            "defense": 110
+        },
+        {
+            "defense": 110
+        },
+        {
+            "defense": 110
+        },
+        {
+            "defense": 110
+        },
+        {
+            "defense": 110
+        },
+        {
+            "defense": 110
+        },
+        {
+            "defense": 110
+        },
+        {
+            "defense": 190
+        },
+        {
+            "defense": 190
+        },
+        {
+            "defense": 190
+        },
+        {
+            "defense": 190
+        },
+        {
+            "defense": 190
+        },
+        {
+            "defense": 190
+        },
+        {
+            "defense": 190
+        },
+        {
+            "defense": 190
+        },
+        {
+            "defense": 200
+        },
+        {
+            "defense": 200
+        },
+        {
+            "defense": 200
+        },
+        {
+            "defense": 200
+        },
+        {
+            "defense": 200
+        },
+        {
+            "defense": 200
+        },
+        {
+            "defense": 200
+        },
+        {
+            "defense": 200
+        },
+        {
+            "defense": 285
+        },
+        {
+            "defense": 285
+        },
+        {
+            "defense": 285
+        },
+        {
+            "defense": 285
+        },
+        {
+            "defense": 285
+        },
+        {
+            "defense": 285
+        },
+        {
+            "defense": 285
+        },
+        {
+            "defense": 285
+        },
+        {
+            "defense": 300
+        },
+        {
+            "defense": 300
+        },
+        {
+            "defense": 300
+        },
+        {
+            "defense": 300
+        },
+        {
+            "defense": 300
+        },
+        {
+            "defense": 300
+        },
+        {
+            "defense": 300
+        },
+        {
+            "defense": 300
+        },
+        {
+            "defense": 300
+        },
+        {
+            "defense": 300
+        },
+        {
+            "defense": 300
+        },
+        {
+            "defense": 300
+        },
+        {
+            "defense": 300
+        },
+        {
+            "defense": 300
+        },
+        {
+            "defense": 300
+        },
+        {
+            "defense": 360
+        },
+        {
+            "defense": 360
+        },
+        {
+            "defense": 360
+        },
+        {
+            "defense": 360
+        },
+        {
+            "defense": 360
+        },
+        {
+            "defense": 360
+        },
+        {
+            "defense": 360
+        },
+        {
+            "defense": 560
+        },
+        {
+            "defense": 560
+        },
+        {
+            "defense": 560
+        },
+        {
+            "defense": 560
+        },
+        {
+            "defense": 560
+        },
+        {
+            "defense": 490
+        },
+        {
+            "defense": 490
+        },
+        {
+            "defense": 490
+        },
+        {
+            "defense": 490
+        },
+        {
+            "defense": 490
+        },
+        {
+            "defense": 490
+        },
+        {
+            "defense": 490
+        },
+        {
+            "defense": 310
+        },
+        {
+            "defense": 310
+        },
+        {
+            "defense": 310
+        },
+        {
+            "defense": 310
+        },
+        {
+            "defense": 310
+        },
+        {
+            "defense": 310
+        },
+        {
+            "defense": 310
+        },
+        {
+            "defense": 310
+        },
+        {
+            "defense": 310
+        },
+        {
+            "defense": 310
+        },
+        {
+            "defense": 310
+        },
+        {
+            "defense": 610
+        },
+        {
+            "defense": 610
+        },
+        {
+            "defense": 610
+        },
+        {
+            "defense": 610
+        },
+        {
+            "defense": 610
+        },
+        {
+            "defense": 610
+        },
+        {
+            "defense": 610
+        },
+        {
+            "defense": 610
+        },
+        {
+            "defense": 2500
+        },
+        {
+            "defense": 4500
+        },
+        {
+            "defense": 3000
+        },
+        {
+            "defense": 5000
+        },
+        {
+            "defense": 6000
+        }
+    ]
+}
