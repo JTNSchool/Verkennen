@@ -29,3 +29,10 @@ SELECT * FROM animal WHERE owner >= 1; #10:00:16@rubyquest.db
 SELECT * FROM quest WHERE Experience >= 3000; #10:02:47@rubyquest.db
 SELECT * FROM person WHERE gold >= 1800; #10:03:11@rubyquest.db
 SELECT * FROM person WHERE gold <= 1850; #10:03:26@rubyquest.db
+SELECT * FROM person WHERE gold >= 1300; #10:06:42@rubyquest.db
+SELECT * FROM weapon; #10:07:37@rubyquest.db
+SELECT * FROM weapon WHERE price <= 300; #10:07:50@rubyquest.db
+SELECT * FROM quest WHERE gold >= experience; #10:08:46@rubyquest.db
+SELECT * FROM creature; #10:09:25@rubyquest.db
+SELECT * FROM creature WHERE health < max_health; #10:10:11@rubyquest.db
+SELECT * FROM animal WHERE type != "Sheep"; #10:10:41@rubyquest.db
