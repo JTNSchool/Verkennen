@@ -1,0 +1,24 @@
+{
+    "query": "SELECT * FROM weapon ORDER BY attack DESC LIMIT 3",
+    "resultcount": 3,
+    "result": [
+        {
+            "id": 52,
+            "name": "Axe of Terror",
+            "price": 0,
+            "attack": 6200
+        },
+        {
+            "id": 51,
+            "name": "Knock-Down Hammer",
+            "price": 0,
+            "attack": 4850
+        },
+        {
+            "id": 40,
+            "name": "Halberd",
+            "price": 2850,
+            "attack": 3500
+        }
+    ]
+}
