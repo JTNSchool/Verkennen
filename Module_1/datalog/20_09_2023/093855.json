@@ -1,0 +1,62 @@
+{
+    "query": "SELECT * FROM animal WHERE type = \"Tiger\" LIMIT 100\n",
+    "resultcount": 7,
+    "result": [
+        {
+            "id": 71,
+            "type": "Tiger",
+            "speed": 9,
+            "defense": 8,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 72,
+            "type": "Tiger",
+            "speed": 9,
+            "defense": 8,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 73,
+            "type": "Tiger",
+            "speed": 9,
+            "defense": 8,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 74,
+            "type": "Tiger",
+            "speed": 9,
+            "defense": 8,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 75,
+            "type": "Tiger",
+            "speed": 9,
+            "defense": 8,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 76,
+            "type": "Tiger",
+            "speed": 9,
+            "defense": 8,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 77,
+            "type": "Tiger",
+            "speed": 10,
+            "defense": 9,
+            "loyalty": 3,
+            "owner": 8
+        }
+    ]
+}

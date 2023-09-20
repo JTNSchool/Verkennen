@@ -24,3 +24,66 @@ SELECT profession FROM npc
 SELECT DISTINCT profession FROM npc
 
 --ORDER BY attack DESC LIMIT 3; #09:28:46@rubyquest.db
+SELECT * FROM creature 
+
+--ORDER BY attack DESC LIMIT 3; #09:33:41@rubyquest.db
+SELECT * FROM creature WHERE name = "Killer Bee" or "Orc"
+
+--ORDER BY attack DESC LIMIT 3; #09:34:31@rubyquest.db
+SELECT * FROM creature WHERE name = "Killer Bee" or name =  "Orc"
+
+--ORDER BY attack DESC LIMIT 3; #09:34:42@rubyquest.db
+SELECT * FROM animal WHERE speed = 6 and defense = 5
+; #09:36:06@rubyquest.db
+SELECT * FROM animal WHERE type = "Wolf" or type = "Bear" or type = "Eagle"
+; #09:37:01@rubyquest.db
+SELECT count(*) FROM animal WHERE type = "Wolf" or type = "Bear" or type = "Eagle"
+; #09:38:08@rubyquest.db
+SELECT count(*) FROM animal WHERE type = "Tiger" LIMIT 1
+; #09:38:42@rubyquest.db
+SELECT * FROM animal WHERE type = "Tiger" LIMIT 1
+; #09:38:50@rubyquest.db
+SELECT * FROM animal WHERE type = "Tiger" LIMIT 100
+; #09:38:55@rubyquest.db
+SELECT * FROM animal WHERE type = "Tiger" LIMIT 100 
+; #09:39:23@rubyquest.db
+SELECT * FROM animal
+WHERE type = "Tiger"
+and speed = 10
+LIMIT 100 ; #09:39:52@rubyquest.db
+SELECT MAX(speed) FROM animal
+WHERE type = "Tiger"
+
+LIMIT 100 ; #09:41:12@rubyquest.db
+SELECT * FROM person
+WHERE attack and defense and agility = 10; #09:48:04@rubyquest.db
+SELECT * FROM hero
+WHERE intelligence != 30 and 90; #09:52:23@rubyquest.db
+SELECT * FROM hero
+WHERE intelligence != 30 and intelligence != 90; #09:52:37@rubyquest.db
+SELECT * FROM weapon
+WHERE price >=10 and price <=100; #09:55:28@rubyquest.db
+SELECT * FROM weapon
+WHERE attack >=300 and price <=600; #09:55:46@rubyquest.db
+SELECT * FROM animal
+--WHERE defense >= 7 and defence <= 9; #09:56:58@rubyquest.db
+SELECT COUNT(*) FROM animal
+WHERE defense >= 7 and defense <= 9; #09:57:13@rubyquest.db
+SELECT * FROM person
+WHERE name LIKE "b"; #10:03:19@rubyquest.db
+SELECT * FROM person
+WHERE name LIKE "B"; #10:03:29@rubyquest.db
+SELECT * FROM person
+WHERE name LIKE "B%"; #10:03:32@rubyquest.db
+SELECT * FROM person
+WHERE name LIKE "B_"; #10:04:45@rubyquest.db
+SELECT * FROM person
+WHERE name LIKE "%b%"; #10:08:34@rubyquest.db
+SELECT * FROM animal
+WHERE type LIKE "%a%"; #10:09:55@rubyquest.db
+SELECT * FROM animal
+WHERE type LIKE "%ea%"; #10:10:09@rubyquest.db
+SELECT * FROM animal
+WHERE type LIKE "%d"; #10:10:30@rubyquest.db
+SELECT * FROM weapon
+WHERE name LIKE "%d"; #10:10:40@rubyquest.db

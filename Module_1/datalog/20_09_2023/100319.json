@@ -1,0 +1,5 @@
+{
+    "query": "SELECT * FROM person\nWHERE name LIKE \"b\"",
+    "resultcount": 0,
+    "result": []
+}
