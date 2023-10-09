@@ -1,0 +1,61 @@
+{
+    "query": "SELECT *\nFROM city\nWHERE region \nIN (SELECT id FROM  region Where name in (\"North Groval\", \"South Groval\"))",
+    "resultcount": 11,
+    "result": [
+        {
+            "id": 1,
+            "name": "Knael",
+            "region": 4
+        },
+        {
+            "id": 2,
+            "name": "Troy",
+            "region": 4
+        },
+        {
+            "id": 3,
+            "name": "Pacifa",
+            "region": 4
+        },
+        {
+            "id": 4,
+            "name": "Onker",
+            "region": 4
+        },
+        {
+            "id": 5,
+            "name": "Quiro",
+            "region": 4
+        },
+        {
+            "id": 6,
+            "name": "Antsor",
+            "region": 4
+        },
+        {
+            "id": 7,
+            "name": "Harbor",
+            "region": 3
+        },
+        {
+            "id": 8,
+            "name": "Montse",
+            "region": 3
+        },
+        {
+            "id": 9,
+            "name": "Laeks",
+            "region": 3
+        },
+        {
+            "id": 10,
+            "name": "Vermon",
+            "region": 3
+        },
+        {
+            "id": 11,
+            "name": "Nordberg",
+            "region": 3
+        }
+    ]
+}

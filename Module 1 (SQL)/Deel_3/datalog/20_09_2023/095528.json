@@ -1,0 +1,54 @@
+{
+    "query": "SELECT * FROM weapon\nWHERE price >=10 and price <=100",
+    "resultcount": 8,
+    "result": [
+        {
+            "id": 1,
+            "name": "Dirk",
+            "price": 10,
+            "attack": 100
+        },
+        {
+            "id": 2,
+            "name": "Poniard",
+            "price": 15,
+            "attack": 150
+        },
+        {
+            "id": 3,
+            "name": "Rondel",
+            "price": 28,
+            "attack": 200
+        },
+        {
+            "id": 4,
+            "name": "Dagger",
+            "price": 50,
+            "attack": 250
+        },
+        {
+            "id": 5,
+            "name": "Anelace",
+            "price": 70,
+            "attack": 300
+        },
+        {
+            "id": 23,
+            "name": "Quarterstaff",
+            "price": 12,
+            "attack": 125
+        },
+        {
+            "id": 30,
+            "name": "Pike",
+            "price": 100,
+            "attack": 325
+        },
+        {
+            "id": 44,
+            "name": "Sling",
+            "price": 15,
+            "attack": 115
+        }
+    ]
+}

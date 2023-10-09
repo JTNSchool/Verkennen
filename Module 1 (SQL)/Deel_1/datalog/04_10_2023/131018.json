@@ -1,0 +1,10 @@
+{
+    "query": "select type, max(speed)\nfrom animal\n",
+    "resultcount": 1,
+    "result": [
+        {
+            "type": "Tiger",
+            "max(speed)": 10
+        }
+    ]
+}

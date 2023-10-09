@@ -1,0 +1,81 @@
+SELECT *
+FROM npc
+; #12:59:51@rubyquest.db
+SELECT COUNT(*)
+FROM npc; #13:00:17@rubyquest.db
+SELECT COUNT(*)
+FROM animal; #13:00:37@rubyquest.db
+SELECT COUNT(id)
+FROM animal; #13:00:46@rubyquest.db
+SELECT COUNT(*)
+FROM animal; #13:00:51@rubyquest.db
+SELECT COUNT(*)
+FROM city; #13:01:02@rubyquest.db
+SELECT *
+FROM animal; #13:01:17@rubyquest.db
+SELECT count(*)
+FROM animal
+where type = "Sheep"; #13:01:30@rubyquest.db
+SELECT count(*)
+FROM animal
+where type = "Sea snake"; #13:01:43@rubyquest.db
+SELECT *
+FROM animal
+; #13:01:50@rubyquest.db
+SELECT count(*)
+FROM animal
+where type = "Sea Xnake"; #13:02:01@rubyquest.db
+SELECT count(*)
+FROM animal
+where type = "Sea Snake"; #13:02:09@rubyquest.db
+select *
+from animal; #13:04:38@rubyquest.db
+select type, speed
+from animal
+; #13:08:24@rubyquest.db
+select *
+from animal
+; #13:08:33@rubyquest.db
+select min(speed)
+from animal
+; #13:08:49@rubyquest.db
+select type, min(speed)
+from animal
+; #13:09:59@rubyquest.db
+select type, max(speed)
+from animal
+; #13:10:18@rubyquest.db
+select *
+from weapon
+; #13:11:41@rubyquest.db
+select name, min(attack)
+from weapon
+; #13:12:01@rubyquest.db
+select name, max(price)
+from weapon
+; #13:12:28@rubyquest.db
+select *
+from quest; #13:17:14@rubyquest.db
+select title, avg(experience)
+from quest; #13:18:09@rubyquest.db
+select avg(experience)
+from quest; #13:18:25@rubyquest.db
+select *
+from quest; #13:18:49@rubyquest.db
+select sum(gold)
+from quest
+where holder = 0; #13:23:59@rubyquest.db
+select *
+from weapon; #13:24:52@rubyquest.db
+select *
+from weapon
+where name like "%sword%"; #13:27:36@rubyquest.db
+select *
+from weapon
+where name like "%sword%"; #13:28:57@rubyquest.db
+select name, avg(price), avg(attack)
+from weapon
+where name like "%sword%"; #13:28:59@rubyquest.db
+select avg(price), avg(attack)
+from weapon
+where name like "%sword%"; #13:29:09@rubyquest.db

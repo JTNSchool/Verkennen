@@ -1,0 +1,5 @@
+{
+    "query": "SELECT *\nFROM city\nWHERE region \nIN (SELECT holder FROM  region)",
+    "resultcount": 0,
+    "result": []
+}

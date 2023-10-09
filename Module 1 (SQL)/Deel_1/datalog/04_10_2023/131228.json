@@ -1,0 +1,10 @@
+{
+    "query": "select name, max(price)\nfrom weapon\n",
+    "resultcount": 1,
+    "result": [
+        {
+            "name": "Halberd",
+            "max(price)": 2850
+        }
+    ]
+}

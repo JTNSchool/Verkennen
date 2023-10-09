@@ -1,0 +1,9 @@
+{
+    "query": "SELECT count(*) FROM animal WHERE type = \"Tiger\" LIMIT 1\n",
+    "resultcount": 1,
+    "result": [
+        {
+            "count(*)": 7
+        }
+    ]
+}

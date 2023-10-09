@@ -1,0 +1,27 @@
+{
+    "query": "SELECT DISTINCT type FROM animal\n\n--ORDER BY attack DESC LIMIT 3",
+    "resultcount": 7,
+    "result": [
+        {
+            "type": "Sheep"
+        },
+        {
+            "type": "Wolf"
+        },
+        {
+            "type": "Bear"
+        },
+        {
+            "type": "Eagle"
+        },
+        {
+            "type": "Tiger"
+        },
+        {
+            "type": "Sea Snake"
+        },
+        {
+            "type": "Giant Rat"
+        }
+    ]
+}

@@ -1,0 +1,588 @@
+{
+    "query": "SELECT profession type FROM npc\n\n--ORDER BY attack DESC LIMIT 3",
+    "resultcount": 194,
+    "result": [
+        {
+            "type": "Boss"
+        },
+        {
+            "type": "Boss"
+        },
+        {
+            "type": "Boss"
+        },
+        {
+            "type": "Boss"
+        },
+        {
+            "type": "Boss"
+        },
+        {
+            "type": "Blacksmith"
+        },
+        {
+            "type": "Apothecary"
+        },
+        {
+            "type": "Tailor"
+        },
+        {
+            "type": "Innkeeper"
+        },
+        {
+            "type": "Craftsman"
+        },
+        {
+            "type": "Pet Trainer"
+        },
+        {
+            "type": "Elder"
+        },
+        {
+            "type": "Blacksmith"
+        },
+        {
+            "type": "Apothecary"
+        },
+        {
+            "type": "Tailor"
+        },
+        {
+            "type": "Innkeeper"
+        },
+        {
+            "type": "Craftsman"
+        },
+        {
+            "type": "Pet Trainer"
+        },
+        {
+            "type": "Elder"
+        },
+        {
+            "type": "Blacksmith"
+        },
+        {
+            "type": "Apothecary"
+        },
+        {
+            "type": "Tailor"
+        },
+        {
+            "type": "Innkeeper"
+        },
+        {
+            "type": "Craftsman"
+        },
+        {
+            "type": "Pet Trainer"
+        },
+        {
+            "type": "Elder"
+        },
+        {
+            "type": "Blacksmith"
+        },
+        {
+            "type": "Apothecary"
+        },
+        {
+            "type": "Tailor"
+        },
+        {
+            "type": "Innkeeper"
+        },
+        {
+            "type": "Craftsman"
+        },
+        {
+            "type": "Pet Trainer"
+        },
+        {
+            "type": "Elder"
+        },
+        {
+            "type": "Blacksmith"
+        },
+        {
+            "type": "Apothecary"
+        },
+        {
+            "type": "Tailor"
+        },
+        {
+            "type": "Innkeeper"
+        },
+        {
+            "type": "Craftsman"
+        },
+        {
+            "type": "Pet Trainer"
+        },
+        {
+            "type": "Elder"
+        },
+        {
+            "type": "Blacksmith"
+        },
+        {
+            "type": "Apothecary"
+        },
+        {
+            "type": "Tailor"
+        },
+        {
+            "type": "Innkeeper"
+        },
+        {
+            "type": "Craftsman"
+        },
+        {
+            "type": "Pet Trainer"
+        },
+        {
+            "type": "Elder"
+        },
+        {
+            "type": "Blacksmith"
+        },
+        {
+            "type": "Apothecary"
+        },
+        {
+            "type": "Tailor"
+        },
+        {
+            "type": "Innkeeper"
+        },
+        {
+            "type": "Craftsman"
+        },
+        {
+            "type": "Pet Trainer"
+        },
+        {
+            "type": "Elder"
+        },
+        {
+            "type": "Blacksmith"
+        },
+        {
+            "type": "Apothecary"
+        },
+        {
+            "type": "Tailor"
+        },
+        {
+            "type": "Innkeeper"
+        },
+        {
+            "type": "Craftsman"
+        },
+        {
+            "type": "Pet Trainer"
+        },
+        {
+            "type": "Elder"
+        },
+        {
+            "type": "Blacksmith"
+        },
+        {
+            "type": "Apothecary"
+        },
+        {
+            "type": "Tailor"
+        },
+        {
+            "type": "Innkeeper"
+        },
+        {
+            "type": "Craftsman"
+        },
+        {
+            "type": "Pet Trainer"
+        },
+        {
+            "type": "Elder"
+        },
+        {
+            "type": "Blacksmith"
+        },
+        {
+            "type": "Apothecary"
+        },
+        {
+            "type": "Tailor"
+        },
+        {
+            "type": "Innkeeper"
+        },
+        {
+            "type": "Craftsman"
+        },
+        {
+            "type": "Pet Trainer"
+        },
+        {
+            "type": "Elder"
+        },
+        {
+            "type": "Blacksmith"
+        },
+        {
+            "type": "Apothecary"
+        },
+        {
+            "type": "Tailor"
+        },
+        {
+            "type": "Innkeeper"
+        },
+        {
+            "type": "Craftsman"
+        },
+        {
+            "type": "Pet Trainer"
+        },
+        {
+            "type": "Elder"
+        },
+        {
+            "type": "Blacksmith"
+        },
+        {
+            "type": "Apothecary"
+        },
+        {
+            "type": "Tailor"
+        },
+        {
+            "type": "Innkeeper"
+        },
+        {
+            "type": "Craftsman"
+        },
+        {
+            "type": "Pet Trainer"
+        },
+        {
+            "type": "Elder"
+        },
+        {
+            "type": "Blacksmith"
+        },
+        {
+            "type": "Apothecary"
+        },
+        {
+            "type": "Tailor"
+        },
+        {
+            "type": "Innkeeper"
+        },
+        {
+            "type": "Craftsman"
+        },
+        {
+            "type": "Pet Trainer"
+        },
+        {
+            "type": "Elder"
+        },
+        {
+            "type": "Blacksmith"
+        },
+        {
+            "type": "Apothecary"
+        },
+        {
+            "type": "Tailor"
+        },
+        {
+            "type": "Innkeeper"
+        },
+        {
+            "type": "Craftsman"
+        },
+        {
+            "type": "Pet Trainer"
+        },
+        {
+            "type": "Elder"
+        },
+        {
+            "type": "Blacksmith"
+        },
+        {
+            "type": "Apothecary"
+        },
+        {
+            "type": "Tailor"
+        },
+        {
+            "type": "Innkeeper"
+        },
+        {
+            "type": "Craftsman"
+        },
+        {
+            "type": "Pet Trainer"
+        },
+        {
+            "type": "Elder"
+        },
+        {
+            "type": "Blacksmith"
+        },
+        {
+            "type": "Apothecary"
+        },
+        {
+            "type": "Tailor"
+        },
+        {
+            "type": "Innkeeper"
+        },
+        {
+            "type": "Craftsman"
+        },
+        {
+            "type": "Pet Trainer"
+        },
+        {
+            "type": "Elder"
+        },
+        {
+            "type": "Blacksmith"
+        },
+        {
+            "type": "Apothecary"
+        },
+        {
+            "type": "Tailor"
+        },
+        {
+            "type": "Innkeeper"
+        },
+        {
+            "type": "Craftsman"
+        },
+        {
+            "type": "Pet Trainer"
+        },
+        {
+            "type": "Elder"
+        },
+        {
+            "type": "Blacksmith"
+        },
+        {
+            "type": "Apothecary"
+        },
+        {
+            "type": "Tailor"
+        },
+        {
+            "type": "Innkeeper"
+        },
+        {
+            "type": "Craftsman"
+        },
+        {
+            "type": "Pet Trainer"
+        },
+        {
+            "type": "Elder"
+        },
+        {
+            "type": "Blacksmith"
+        },
+        {
+            "type": "Apothecary"
+        },
+        {
+            "type": "Tailor"
+        },
+        {
+            "type": "Innkeeper"
+        },
+        {
+            "type": "Craftsman"
+        },
+        {
+            "type": "Pet Trainer"
+        },
+        {
+            "type": "Elder"
+        },
+        {
+            "type": "Blacksmith"
+        },
+        {
+            "type": "Apothecary"
+        },
+        {
+            "type": "Tailor"
+        },
+        {
+            "type": "Innkeeper"
+        },
+        {
+            "type": "Craftsman"
+        },
+        {
+            "type": "Pet Trainer"
+        },
+        {
+            "type": "Elder"
+        },
+        {
+            "type": "Blacksmith"
+        },
+        {
+            "type": "Apothecary"
+        },
+        {
+            "type": "Tailor"
+        },
+        {
+            "type": "Innkeeper"
+        },
+        {
+            "type": "Craftsman"
+        },
+        {
+            "type": "Pet Trainer"
+        },
+        {
+            "type": "Elder"
+        },
+        {
+            "type": "Blacksmith"
+        },
+        {
+            "type": "Apothecary"
+        },
+        {
+            "type": "Tailor"
+        },
+        {
+            "type": "Innkeeper"
+        },
+        {
+            "type": "Craftsman"
+        },
+        {
+            "type": "Pet Trainer"
+        },
+        {
+            "type": "Elder"
+        },
+        {
+            "type": "Blacksmith"
+        },
+        {
+            "type": "Apothecary"
+        },
+        {
+            "type": "Tailor"
+        },
+        {
+            "type": "Innkeeper"
+        },
+        {
+            "type": "Craftsman"
+        },
+        {
+            "type": "Pet Trainer"
+        },
+        {
+            "type": "Elder"
+        },
+        {
+            "type": "Blacksmith"
+        },
+        {
+            "type": "Apothecary"
+        },
+        {
+            "type": "Tailor"
+        },
+        {
+            "type": "Innkeeper"
+        },
+        {
+            "type": "Craftsman"
+        },
+        {
+            "type": "Pet Trainer"
+        },
+        {
+            "type": "Elder"
+        },
+        {
+            "type": "Blacksmith"
+        },
+        {
+            "type": "Apothecary"
+        },
+        {
+            "type": "Tailor"
+        },
+        {
+            "type": "Innkeeper"
+        },
+        {
+            "type": "Craftsman"
+        },
+        {
+            "type": "Pet Trainer"
+        },
+        {
+            "type": "Elder"
+        },
+        {
+            "type": "Blacksmith"
+        },
+        {
+            "type": "Apothecary"
+        },
+        {
+            "type": "Tailor"
+        },
+        {
+            "type": "Innkeeper"
+        },
+        {
+            "type": "Craftsman"
+        },
+        {
+            "type": "Pet Trainer"
+        },
+        {
+            "type": "Elder"
+        },
+        {
+            "type": "Blacksmith"
+        },
+        {
+            "type": "Apothecary"
+        },
+        {
+            "type": "Tailor"
+        },
+        {
+            "type": "Innkeeper"
+        },
+        {
+            "type": "Craftsman"
+        },
+        {
+            "type": "Pet Trainer"
+        },
+        {
+            "type": "Elder"
+        }
+    ]
+}

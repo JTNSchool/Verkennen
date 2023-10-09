@@ -1,0 +1,22 @@
+{
+    "query": "SELECT *\nFROM animal\nWHERE owner \nIN (SELECT id FROM person WHERE name == \"Captain America\")",
+    "resultcount": 2,
+    "result": [
+        {
+            "id": 7,
+            "type": "Sheep",
+            "speed": 3,
+            "defense": 4,
+            "loyalty": 1,
+            "owner": 2
+        },
+        {
+            "id": 83,
+            "type": "Sea Snake",
+            "speed": 10,
+            "defense": 8,
+            "loyalty": 10,
+            "owner": 2
+        }
+    ]
+}

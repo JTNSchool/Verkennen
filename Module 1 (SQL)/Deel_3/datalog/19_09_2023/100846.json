@@ -1,0 +1,14 @@
+{
+    "query": "SELECT * FROM quest WHERE gold >= experience",
+    "resultcount": 1,
+    "result": [
+        {
+            "id": 47,
+            "title": "How much is not the question",
+            "experience": 500,
+            "gold": 2500,
+            "publisher": 21,
+            "holder": 0
+        }
+    ]
+}

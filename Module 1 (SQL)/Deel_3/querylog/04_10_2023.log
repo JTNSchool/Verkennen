@@ -1,0 +1,44 @@
+SELECT *
+FROM region
+; #09:15:57@rubyquest.db
+SELECT *
+FROM city
+; #09:18:15@rubyquest.db
+SELECT * from region
+; #09:23:12@rubyquest.db
+SELECT *
+FROM city
+WHERE region 
+IN (SELECT holder FROM  region); #09:23:18@rubyquest.db
+SELECT *
+FROM city; #09:23:27@rubyquest.db
+SELECT *
+FROM city
+WHERE region 
+IN (SELECT id FROM  region); #09:24:58@rubyquest.db
+SELECT *
+FROM city
+WHERE region 
+IN (SELECT id FROM  region); #09:25:00@rubyquest.db
+SELECT *
+FROM city
+WHERE region 
+IN (SELECT id FROM  region Where name in ("North Groval", "South Groval")); #09:27:39@rubyquest.db
+SELECT *
+FROM city
+WHERE region 
+IN (SELECT id FROM  region); #09:27:52@rubyquest.db
+SELECT *
+FROM city
+WHERE region 
+IN (SELECT id FROM  region Where name in ("North Groval", "South Groval")); #09:27:55@rubyquest.db
+SELECT *
+FROM animal; #09:29:20@rubyquest.db
+SELECT *
+FROM hero; #09:29:29@rubyquest.db
+SELECT *
+FROM person; #09:30:01@rubyquest.db
+SELECT *
+FROM animal
+WHERE owner 
+IN (SELECT id FROM person WHERE name == "Captain America"); #09:31:43@rubyquest.db

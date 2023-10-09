@@ -1,0 +1,10 @@
+{
+    "query": "select type, min(speed)\nfrom animal\n",
+    "resultcount": 1,
+    "result": [
+        {
+            "type": "Sheep",
+            "min(speed)": 3
+        }
+    ]
+}
