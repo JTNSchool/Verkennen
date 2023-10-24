@@ -16,22 +16,20 @@ h2{
     color: orange;
 }
 
-section>p:nth-of-type(1){
+p.p2-1{
     color: blue;
     font-weight: bolder;
 }
-
-section>p:nth-of-type(2){
+p.p2-2{
     color: yellow;
     font-style: italic;
 }
-
-section>p:nth-of-type(3){
+p.p2-3{
     color: red;
     font-family: monospace;
 }
 
-body>p{
+p.Unieke{
     color: yellow;
     font-style: italic;
     background-color: red;
