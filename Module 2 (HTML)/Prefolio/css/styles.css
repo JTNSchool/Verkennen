@@ -1,1 +1,23 @@
+body{
+    background-color: rgb(52, 52, 52);
+    color: white;
+    font-style:initial;
+}
 
+
+h3{
+    color: aqua;
+    font-style:italic;
+}
+
+h4{
+    color: rgb(85, 255, 0);
+    font-style:italic;
+}
+
+ul{
+    color: rgb(10, 187, 128);
+    outline: auto;
+    padding: spx;
+    outline-color: rgb(9, 142, 97);
+}
