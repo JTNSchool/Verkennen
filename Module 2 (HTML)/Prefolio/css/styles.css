@@ -1,23 +1,54 @@
-body{
-    background-color: rgb(52, 52, 52);
-    color: white;
-    font-style:initial;
+body {
+    background-color: #111111;
+    color: #edf0f5;
+    font-family: "Lucida Console", "Monaco", monospace;
+    margin: 0;
+    padding: 0;
 }
 
-
-h3{
-    color: aqua;
-    font-style:italic;
+.container {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
-h4{
-    color: rgb(85, 255, 0);
-    font-style:italic;
+header {
+    background-color: #222222;
+    padding: 10px;
+    border: 2px solid purple;
+    text-align: center;
 }
 
-ul{
-    color: rgb(10, 187, 128);
-    outline: auto;
-    padding: spx;
-    outline-color: rgb(9, 142, 97);
+h1 {
+    margin: 0;
 }
+
+section {
+    background-color: #222222;
+    padding: 20px;
+    border: 1px solid purple;
+    margin: 20px 0; 
+}
+
+h2 {
+    color: rgb(210, 65, 210);
+}
+
+h3 {
+    color: rgb(243, 128, 243);
+    
+}
+
+h4 {
+    color: rgb(255, 165, 255);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
