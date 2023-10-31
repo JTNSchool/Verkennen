@@ -6,6 +6,14 @@ body{
   
 }
 
+a {
+    color: yellow;
+}
+
+a:hover {
+    color: aliceblue;
+}
+
 
 header{
     background-color: red;
