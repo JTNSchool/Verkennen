@@ -12,10 +12,18 @@ body {
     padding: 20px;
 }
 
+
+a {
+    color: green;
+}
+a:hover{
+    color: rgb(1, 247, 1);
+}
+
 header {
     background-color: #222222;
     padding: 10px;
-    border: 2px solid purple;
+    border: 2px solid green;
     text-align: center;
 }
 
@@ -26,21 +34,21 @@ h1 {
 section {
     background-color: #222222;
     padding: 20px;
-    border: 1px solid purple;
+    border: 1px solid green;
     margin: 20px 0; 
 }
 
 h2 {
-    color: rgb(210, 65, 210);
+    color: rgb(1, 247, 1);
 }
 
 h3 {
-    color: rgb(243, 128, 243);
+    color: rgb(1, 247, 1);
     
 }
 
 h4 {
-    color: rgb(255, 165, 255);
+    color: rgb(1, 247, 1);
 }
 
 ul {

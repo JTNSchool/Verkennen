@@ -1,0 +1,62 @@
+body {
+    background-color: #111111;
+    color: #edf0f5;
+    font-family: "Lucida Console", "Monaco", monospace;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+a {
+    color: purple;
+}
+a:hover{
+    color: rgb(210, 65, 210);
+}
+
+header {
+    background-color: #222222;
+    padding: 10px;
+    border: 2px solid purple;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+section {
+    background-color: #222222;
+    padding: 20px;
+    border: 1px solid purple;
+    margin: 20px 0; 
+}
+
+h2 {
+    color: rgb(210, 65, 210);
+}
+
+h3 {
+    color: rgb(243, 128, 243);
+    
+}
+
+h4 {
+    color: rgb(255, 165, 255);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
