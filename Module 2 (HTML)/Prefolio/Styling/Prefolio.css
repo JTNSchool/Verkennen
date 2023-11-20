@@ -41,22 +41,37 @@ section {
 h2 {
     color: rgb(210, 65, 210);
 }
-
 h3 {
-    color: rgb(243, 128, 243);
-    
+    color: rgb(243, 128, 243);  
 }
-
 h4 {
     color: rgb(255, 165, 255);
 }
-
 ul {
     list-style-type: none;
     padding: 0;
 }
-
 ul li {
     margin-bottom: 5px;
+}
+
+@media (min-width: 552px) {
+    h2 {color: rgb(110, 65, 210);}
+    h3 {color: rgb(143, 128, 243);   }
+    h4 {color: rgb(155, 165, 255);}
+    section {border: 1px solid blue;}
+    header {border: 2px solid blue;}
+    a {color: blue;}
+    a:hover{color: rgb(110, 65, 210);}  
+}
+
+@media (min-width: 752px) {
+    h2 {color: rgb(157, 8, 8);}
+    h3 {color: rgb(150, 10, 10);   }
+    h4 {color: rgb(160, 20, 20);}
+    section {border: 1px solid red;}
+    header {border: 2px solid red;}
+    a {color: red;}
+    a:hover{color: rgb(200, 10, 10);}  
 }
 
