@@ -4,6 +4,7 @@ body {
     font-family: "Lucida Console", "Monaco", monospace;
     margin: 0;
     padding: 0;
+    width: 95%;
 }
 
 .container {
@@ -12,11 +13,11 @@ body {
     padding: 20px;
 }
 
-
 a {
     color: green;
 }
-a:hover{
+
+a:hover {
     color: rgb(1, 247, 1);
 }
 
@@ -31,24 +32,15 @@ h1 {
     margin: 0;
 }
 
+h2, h3, h4 {
+    color: rgb(1, 247, 1);
+}
+
 section {
     background-color: #222222;
     padding: 20px;
     border: 1px solid green;
-    margin: 20px 0; 
-}
-
-h2 {
-    color: rgb(1, 247, 1);
-}
-
-h3 {
-    color: rgb(1, 247, 1);
-    
-}
-
-h4 {
-    color: rgb(1, 247, 1);
+    margin: 20px 0;
 }
 
 ul {
@@ -60,3 +52,12 @@ ul li {
     margin-bottom: 5px;
 }
 
+section.projecten {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.project {
+    min-width: 200px;
+    width: 20%;
+}

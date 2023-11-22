@@ -1,0 +1,18 @@
+
+nav {
+
+  background-color: darkseagreen;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+nav>div {
+  min-width: 120px;
+  width: 20%;
+
+  height: 30px;
+  background-color: lightseagreen;
+  margin:2px;
+  text-align: center;
+  padding: 20px;
+}
