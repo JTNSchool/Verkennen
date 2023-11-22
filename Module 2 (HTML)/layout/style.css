@@ -61,7 +61,7 @@
     grid-column: 2/5;
   }
   .grid-container>aside {
-    grid-column: 5/6;
+    grid-column: 5/6 ;
     grid-row: 2/5;
   }
 }
