@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+<head>
+  <title>New Profile</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Profile form</h1>
+  <form id="form_profile">
+    <p>
+      <label>Name: </label>
+      <input type="text" name="input_name" id="input_name" required>
+    </p>
+    <p>
+      <label>Address: </label>
+      <input type="text" name="input_address" id="input_address" required>
+    </p>
+    <p>
+      <label>Zipcode: </label>
+      <input type="text" name="input_zipcode" id="input_zipcode" required>
+    </p>
+    <p>
+      <label>City: </label>
+      <input type="text" name="input_city" id="input_city" required>
+    </p>
+    <p>
+      <label>Email: </label>
+      <input type="email" name="input_email" id="input_email" required>
+    </p>
+    <p>
+      <label>Years experience: </label>
+      <input type="number" min="0" max="100" name="input_year_experience" id="input_year_experience" required>
+    </p>
+    <p>
+      <label>Hobby: </label>
+      <textarea type="text" rows="5" cols="20" name="input_hobby" id="input_hobby" required></textarea>
+    </p>
+    <p>
+      <label>Birth Date: </label>
+      <input type="date" name="input_date" id="input_date" required>
+    </p>
+
+    <input type="submit" id="submit_button" value="submit">
+    <input type="reset" id="reset_button" value="reset">
+
+  </form>
+  <div id="profile">
+    <h1>Profile</h1>
+    <p><label>Name: </label><span id="display_name"></span></p>
+    <p><label>Address: </label><span id="display_address"></span></p>
+    <p><label>Zipcode: </label><span id="display_zipcode"></span></p>
+    <p><label>City: </label><span id="display_city"></span></p>
+    <p><label>Email: </label><span id="display_email"></span></p>
+    <p><label>Years experience: </label><span id="display_year_experience"></span></p>
+    <p><label>Hobby: </label><span id="display_hobby"></span></p>
+    <p><label>Birth Date: </label><span id="display_date"></span></p>
+  </div>
+
+  <script>
+    function submit(event){
+      display_name.textContent = input_name.value;
+      display_address.textContent = input_address.value;
+      display_zipcode.textContent = input_zipcode.value;
+      display_city.textContent = input_city.value;
+      display_date.textContent = input_date.value;
+      display_email.textContent = input_email.value;
+      display_hobby.textContent = input_hobby.value;
+      display_year_experience.textContent = input_year_experience.value;
+    }
+    submit_button.addEventListener('click', submit);
+
+    function reset(event){
+      display_name.textContent = "";
+      display_address.textContent = "";
+      display_zipcode.textContent = "";
+      display_city.textContent = "";
+      display_date.textContent = "";
+      display_email.textContent = "";
+      display_hobby.textContent = "";
+      display_year_experience.textContent = "";
+    }
+    reset_button.addEventListener('click',reset);
+
+    // prevent document from default trying to really submit
+    function form_submit(event){
+      event.preventDefault();
+    }
+    form_profile.addEventListener('submit',form_submit)
+
+  </script>
+</body>
+</html>

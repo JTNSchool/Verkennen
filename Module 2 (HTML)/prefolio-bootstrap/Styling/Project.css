@@ -1,0 +1,63 @@
+body {
+    background-color: #111111;
+    color: #edf0f5;
+    font-family: "Lucida Console", "Monaco", monospace;
+    margin: 0;
+    padding: 0;
+    width: 95%;
+}
+
+.container {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+a {
+    color: green;
+}
+
+a:hover {
+    color: rgb(1, 247, 1);
+}
+
+header {
+    background-color: #222222;
+    padding: 10px;
+    border: 2px solid green;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2, h3, h4 {
+    color: rgb(1, 247, 1);
+}
+
+section {
+    background-color: #222222;
+    padding: 20px;
+    border: 1px solid green;
+    margin: 20px 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+section.projecten {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.project {
+    min-width: 200px;
+    width: 20%;
+}
