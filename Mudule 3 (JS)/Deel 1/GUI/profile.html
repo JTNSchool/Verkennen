@@ -57,6 +57,12 @@
   </div>
 
   <script>
+
+  function cap(event){
+      input_city.value = input_city.value.toUpperCase();
+    }
+    input_city.addEventListener('focusout', cap);
+
     function submit(event){
       display_name.textContent = input_name.value;
       display_address.textContent = input_address.value;
