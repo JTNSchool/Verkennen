@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+  <title>base</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Speelhal</h1>
+  <form id="form">
+
+    <p>
+      <label>Aantal deelnemers: </label>
+      <input type="number" min=0 value=1 name="deelnemers" id="deelnemers" required>
+    </p>
+    <p>
+      <label>Aantal personen in VIP: </label>
+      <input type="number" min=0 value=0 name="PersoonVIP" id="PersoonVIP" required>
+    </p>
+    <p>
+      <label>Tijd in VIP: </label>
+      <input type="number" min=0 value=0 name="tijdVIP" id="tijdVIP" required>
+    </p>
+
+    <input type="submit" id="submit_button" value="berekenen">
+  </form>
+  <div id="result">
+    <h1>Resultaat</h1>
+    <p><label>Toegang: </label><span id="display_toegang"></span></p>
+    <p><label>VIP periode: </label><span id="display_VIPtijd"></span></p>
+    <p><label>VIP seat pp: </label><span id="display_VIPseatPP"></span></p>
+    <p><label>VIP seat: </label><span id="display_VIPseat"></span></p>
+    <p><label>Totaal: </label><span id="display_Totaal"></span></p>
+  </div>
+
+  <script>
+    function submit(event){
+      let Prijs_Toegang = 12.45
+      let Tijd = 5
+      let prijs_VIP_PP = 0.65
+      let Totaal = -10
+
+      let TotaalDeelnemer = deelnemers.value * Prijs_Toegang
+      let TotaalVIPtijd = tijdVIP.value / Tijd
+      let Totaalprijs_VIP_PP = TotaalVIPtijd * prijs_VIP_PP
+      let Totaalprijs_VIP = TotaalVIPtijd * prijs_VIP_PP
+
+      display_toegang.textContent = deelnemers.value + " x €" + Prijs_Toegang + " = €" + TotaalDeelnemer.toFixed(2);
+      display_VIPtijd.textContent = tijdVIP.value + " / " + Tijd + " = " + TotaalVIPtijd;
+      display_VIPseatPP.textContent = TotaalVIPtijd + " x €" + prijs_VIP_PP + " = €" + Totaalprijs_VIP_PP;
+      display_VIPseat.textContent = deelnemers.value + " x €" + Totaalprijs_VIP_PP + " = " + Totaalprijs_VIP;
+      display_Totaal.textContent = "€" + TotaalDeelnemer.toFixed(2) + " + €" + (TotaalVIPtijd * Totaalprijs_VIP).toFixed(2) + " = €" + (TotaalDeelnemer + (TotaalVIPtijd * Totaalprijs_VIP)).toFixed(2)
+    }
+    submit_button.addEventListener('click',submit);
+
+    // prevent document from default trying to really submit
+    function form_submit(event){
+      event.preventDefault();
+    }
+    form.addEventListener('submit',form_submit)
+
+  </script>
+</body>
+</html>

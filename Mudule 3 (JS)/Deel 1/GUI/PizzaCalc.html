@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+  <title>base</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>PizzaCalc</h1>
+  <form id="form">
+
+    <p>
+      <label>Aantal Small Pizzas: </label>
+      <input type="number" min=0 value=1 name="input_small" id="input_small" required>
+    </p>
+    <p>
+      <label>Aantal Medium Pizzas: </label>
+      <input type="number" min=0 value=0 name="input_medium" id="input_medium" required>
+    </p>
+    <p>
+      <label>Aantal Large Pizzas: </label>
+      <input type="number" min=0 value=0 name="input_large" id="input_large" required>
+    </p>
+
+    <input type="submit" id="submit_button" value="berekenen">
+  </form>
+  <div id="result">
+    <h1>Resultaat</h1>
+    <p><label>Aantal Small Pizzas: </label><span id="display_small"></span></p>
+    <p><label>Aantal Medium Pizzas: </label><span id="display_medium"></span></p>
+    <p><label>Aantal Large Pizzas: </label><span id="display_large"></span></p>
+    <p><label>Totaal: </label><span id="display_Totaal"></span></p>
+  </div>
+
+  <script>
+    function submit(event){
+      let PriceSmall = 4.50
+      let PriceMedium = 6.50
+      let PriceLarge = 8.50
+
+      let TotaalSmall = input_small.value * PriceSmall
+      let TotaalMedium = input_medium.value * PriceMedium
+      let TotaalLarge = input_large.value * PriceLarge
+
+      display_small.textContent = input_small.value + " x €" + PriceSmall.toFixed(2) + " = €" + TotaalSmall.toFixed(2);
+      display_medium.textContent = input_medium.value + " X €" + PriceMedium.toFixed(2) + " = " + TotaalMedium.toFixed(2);
+      display_large.textContent = input_large.value + " x €" + PriceLarge.toFixed(2) + " = €" + TotaalLarge.toFixed(2);
+      display_Totaal.textContent = "€" + TotaalSmall.toFixed(2) + " + €" + TotaalMedium.toFixed(2) + " + €" + TotaalLarge.toFixed(2) + " = €" + (TotaalSmall + TotaalMedium + TotaalLarge).toFixed(2)
+    }
+    submit_button.addEventListener('click',submit);
+
+    // prevent document from default trying to really submit
+    function form_submit(event){
+      event.preventDefault();
+    }
+    form.addEventListener('submit',form_submit)
+
+  </script>
+</body>
+</html>
