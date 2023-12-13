@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+  <title>Feestlunch</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Feestlunch</h1>
+  <form id="form">
+
+    <p>
+      <label>Aantal croissants: </label>
+      <input type="number" value=0 min=0 max=100 name="input_croissants" id="input_croissants">
+    </p>
+    <p>
+      <label>Aantal Stokbroden: </label>
+      <input type="number" value=0 min=0 max=100 name="input_stokbroden" id="input_stokbroden">
+    </p>
+    <p>
+      <label>Aantal Kortingsbonnen: </label>
+      <input type="number" value=0 min=0 max=100 name="input_kortingsbonnen" id="input_kortingsbonnen">
+    </p>
+
+    <input type="submit" id="submit_button" value="berekenen">
+
+  </form>
+
+  <div id="result">
+    <h1>Resulaat</h1>
+    <p><label>Aantal croissants: </label><span id="display_croissants"></span></p>
+    <p><label>Aantal stokbroden: </label><span id="display_stokbroden"></span></p>
+    <p><label>Aantal Kortingsbonnen: </label><span id="display_kortingsbonnen"></span></p>
+    <p><label>Totaal: </label><span id="display_totaal"></span></p>
+  </div>
+
+  <script>
+
+    function submit(event){
+      let kost_crossant = 1.89
+      let kost_stokbrood = 2.11
+      let Kortingsbonnkorting = 0.25
+
+      let Crostotaal = input_croissants.value * kost_crossant
+      let Stoktotaal = input_stokbroden.value * kost_stokbrood
+      let Kortingtotaal = input_kortingsbonnen.value * Kortingsbonnkorting 
+      let KostenTotaal = Crostotaal + Stoktotaal
+
+      display_croissants.textContent = input_croissants.value + " x €" + kost_crossant + " = €" + Crostotaal.toFixed(2);
+      display_stokbroden.textContent = input_stokbroden.value+ " x €" + kost_stokbrood + " = €" + Stoktotaal.toFixed(2);
+      display_kortingsbonnen.textContent = input_kortingsbonnen.value + " x €" + Kortingsbonnkorting + " = €" + Kortingtotaal.toFixed(2);
+      display_totaal.textContent = "€" + KostenTotaal.toFixed(2) + " - €" + Kortingtotaal + " = €" + (KostenTotaal - Kortingtotaal).toFixed(2);
+    }
+    submit_button.addEventListener('click',submit);
+
+    // prevent document from default trying to really submit
+    function form_submit(event){
+      event.preventDefault();
+    }
+    form.addEventListener('submit',form_submit)
+
+  </script>
+</body>
+</html>
