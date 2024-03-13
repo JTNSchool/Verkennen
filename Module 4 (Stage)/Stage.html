@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<!-- saved from url=(0055)file:///C:/Users/tjbos/Downloads/stage_persoonlijk.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Stage</title>
+    <link rel="stylesheet" href="./Stage_files/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./Stage_files/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <style>
+        #counter{
+            background-color: lemonchiffon;
+            padding: 3px;
+            text-align:  center;
+            border-bottom: 1px solid black;
+
+            position: fixed;
+            width: 100%;
+            z-index: 100;
+        }
+
+        h1{
+            padding-left: 15px;
+            padding-top: 35px;
+        }
+
+        .object-container{
+            position: relative;
+            float: left;
+            background-size: contain;
+            margin: 10px;
+            border: 3px solid black;
+            overflow: hidden;
+            text-align: left;
+
+            width: 300px;
+            height: 300px;
+
+            border-radius: 10%;
+            padding: 10px;
+        }
+
+        .object-container h2{
+            text-align: center;
+        }
+
+        .object-container h3{
+            position: absolute;
+            text-align: center;
+            bottom: 10px;
+            font-size: 90px;
+            width: 40%;
+            left: 30%;
+        }
+
+        .object-container textarea{
+            width: 93%;
+            height: 190px;
+            position: absolute;
+            top: 90px;
+        }
+
+        .object-container button{
+            font-size: 30px;
+            position: absolute;
+            width: 20%;
+            bottom: 45px;
+        }
+
+        .object-container button.add{
+            left: 5%;
+        }
+
+        .object-container button.min{
+            left: 75%;
+        }
+    </style>
+    <script src="./Stage_files/jquery.js.downloaden"></script>
+    <script src="./Stage_files/bootstrap.min.js.downloaden" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="container">
+        <div id="counter">
+            <span id="points" style="display: none;">1 nog te vullen</span>
+            <button id="finalize" style="display: inline;">Afronden</button>
+        </div>
+        <h1>Wat vindt ik belangrijk op mijn stage?</h1>
+        <div id="cards"><div class="object-container"><h2>Anderen helpen (2 punten)</h2><textarea id="area0"></textarea></div><div class="object-container"><h2>Duidelijkheid (2 punten)</h2><textarea id="area1" style="height: 190px;"></textarea></div><div class="object-container"><h2>Geld (2 punten)</h2><textarea id="area2"></textarea></div><div class="object-container"><h2>Gezelligheid (2 punten)</h2><textarea id="area3"></textarea></div><div class="object-container"><h2>Plaats (2 punten)</h2><textarea id="area4"></textarea></div><div class="object-container"><h2>Reizen (2 punten)</h2><textarea id="area5"></textarea></div><div class="object-container"><h2>Rust (2 punten)</h2><textarea id="area6"></textarea></div><div class="object-container"><h2>Samenwerken (2 punten)</h2><textarea id="area7"></textarea></div><div class="object-container"><h2>Waardering (2 punten)</h2><textarea id="area8"></textarea></div><div class="object-container"><h2>Zekerheid (2 punten)</h2><textarea id="area9"></textarea></div><div class="object-container"><h2>Zelfstandigheid (2 punten)</h2><textarea id="area10"></textarea></div><div class="object-container"><h2>Creativiteit (1 punten)</h2><textarea id="area11"></textarea></div><div class="object-container"><h2>Maatschappelijk (1 punten)</h2><textarea id="area12"></textarea></div><div class="object-container"><h2>Omgaan met mensen (1 punten)</h2><textarea id="area13"></textarea></div><div class="object-container"><h2>Regelmaat (1 punten)</h2><textarea id="area14"></textarea></div><div class="object-container"><h2>Risico (1 punten)</h2><textarea id="area15"></textarea></div><div class="object-container"><h2>Tijdvrijheid (1 punten)</h2><textarea id="area16"></textarea></div><div class="object-container"><h2>Variatie (1 punten)</h2><textarea id="area17"></textarea></div><div class="object-container"><h2>Vriendschap (1 punten)</h2><textarea id="area18"></textarea></div></div>
+    </div>
+
+<script>
+    var container = document.getElementById('cards');
+    var finalizeBtn = document.getElementById('finalize');
+    var pointsTxt = document.getElementById('points');
+    var points = 30;
+    var choices = 0;
+    var pointsLeft = points;
+    var values = [
+        [
+            'Waardering',
+            'merken dat mensen het op prijs stellen wat je op stage doet',
+            0
+        ],[
+            'Zekerheid',
+            'Dat je hoe dan ook kunnen blijven op deze stageplaats, ongeacht hoe goed of fout het gaat',
+            0
+        ],[
+            'Competitie',
+            'Kunnen bewijzen dat je beter bent dan een ander',
+            0
+        ],[
+            'Variatie',
+            'Afwisseling in je stagewerk',
+            0
+        ],[
+            'Tastbaar resultaat',
+            'Concrete dingen maken',
+            0
+        ],[
+            'Duidelijkheid',
+            'Werken met goed omschreven regels en duidelijke doelen',
+            0
+        ],[
+            'Fysieke inspanning',
+            'Lichamelijk (eventueel zwaar) werk verrichten',
+            0
+        ],[
+            'Omgaan met mensen',
+            'Op je werk met veel mensen in contact komen',
+            0
+        ],[
+            'Creativiteit',
+            'Kunstzinnig bezig zijn of nieuwe dingen bedenken',
+            0
+        ],[
+            'Tijdvrijheid',
+            'Zelf mogen bepalen wanneer je aan wat werkt op je stage',
+            0
+        ],[
+            'Rust',
+            'Een lage werkdruk en verder geen "gezeur"',
+            0
+        ],[
+            'Regelmaat',
+            'Op vaste tijden aan dezelfde zaken kunnen werken',
+            0
+        ],[
+            'Reizen',
+            'Op vaste tijden aan dezelfde zaken kunnen werken',
+            0
+        ],[
+            'Gezelligheid',
+            'Leuke collega’s en een prettige sfeer',
+            0
+        ],[
+            'Samenwerken',
+            'Samen met anderen aan hetzelfde doel werken',
+            0
+        ],[
+            'Zelfstandigheid',
+            'Je stagewerk naar eigen inzicht kunnen indelen',
+            0
+        ],[
+            'Vriendschap',
+            'Veel vrienden op je werk',
+            0
+        ],[
+            'Plaats',
+            'Stageplaats in een bepaald gebied',
+            0
+        ],[
+            'Maatschappelijk',
+            'Jezelf inzetten voor een betere wereld',
+            0
+        ],[
+            'Uitdaging',
+            'Stagewerk doen dat het uiterste vraagt van je inzet en capaciteiten',
+            0
+        ],[
+            'Status',
+            'Een positie hebben die respect afdwingt',
+            0
+        ],[
+            'Geld',
+            'Een goede stagevergoeding',
+            0
+        ],[
+            'Buitenlucht',
+            'Veel buiten in de frisse lucht kunnen werken',
+            0
+        ],[
+            'Risico',
+            'Spannend werk doen waarvan de uitkomst onzeker is',
+            0
+        ],[
+            'Anderen helpen',
+            'Jezelf inzetten voor andere mensen',
+            0
+        ]
+    ];
+
+    function createCard(i, step) {
+
+        var card = document.createElement('div');
+        var title = document.createElement('h2');
+        var counter = document.createElement('h3');
+        var description = document.createElement('p');
+
+        card.classList.add('object-container');
+
+        title.innerHTML = values[i][0];
+        description.innerHTML = values[i][1];
+
+        card.appendChild(title);
+        counter.innerHTML = values[i][2];
+
+        switch (step) {
+            case 2:
+                if(values[i][2] == 0){
+                    return null;
+                }
+
+                title.innerHTML = values[i][0]+ ' ('+values[i][2]+' punten)';
+                var txtArea = document.createElement('textarea');
+                txtArea.id = 'area'+i;
+                txtArea.onkeyup = checkAreas;
+
+                card.appendChild(txtArea);
+                break
+
+
+            case 3:
+                if(values[i][2] == 0){
+                    return null;
+                }
+
+                card.appendChild(description);
+                card.appendChild(counter);
+                break;
+
+            default:
+                var buttonAdd = document.createElement('button');
+                var buttonMin = document.createElement('button');
+
+                buttonAdd.innerHTML = '+';
+                buttonAdd.id = 'add'+i;
+                buttonAdd.classList.add('add');
+                buttonAdd.onclick = add;
+
+                buttonMin.innerHTML = '-';
+                buttonMin.id = 'min'+i;
+                buttonMin.classList.add('min');
+                buttonMin.onclick = min;
+
+                card.appendChild(description);
+                card.appendChild(buttonAdd);
+                card.appendChild(counter);
+                card.appendChild(buttonMin);
+        }
+
+        return card;
+    }
+
+    function add() {
+        var id = this.id.replace('add', '');
+        if(pointsLeft > 0) {
+            values[id][2]++;
+            build(1);
+        }
+    }
+
+    function min() {
+        var id = this.id.replace('min', '');
+        if(values[id][2] > 0) {
+            values[id][2]--;
+            build(1);
+        }
+    }
+
+    function build(step) {
+        container.innerHTML = '';
+        pointsLeft = points;
+        choices = 0;
+        for (var i=0; i < values.length; i ++) {
+            pointsLeft -= values[i][2];
+
+            var card = createCard(i, step);
+
+            if(card != null) {
+                container.appendChild(card);
+            }
+
+            if(values[i][2] > 0){
+                choices++;
+            }
+        }
+
+        switch (step) {
+            case 2:
+                checkAreas();
+                break;
+
+            default:
+                if(pointsLeft == 0){
+                    finalizeBtn.style.display = 'inline';
+                    pointsTxt.style.display = 'none';
+
+                }else {
+                    finalizeBtn.style.display = 'none';
+                    pointsTxt.style.display = 'block';
+                    pointsTxt.innerHTML = pointsLeft + ' punten over';
+                }
+        }
+
+    }
+
+    function checkAreas(){
+        toFill = 0;
+        finalizeBtn.style.display = 'inline';
+        pointsTxt.style.display = 'none';
+
+        for (var i=0; i < values.length; i ++) {
+            if(values[i][2] > 0){
+                var inputVal = document.getElementById('area'+i).value;
+                values[i][1] = inputVal;
+
+                if(inputVal.length == 0){
+                    finalizeBtn.style.display = 'none';
+                    toFill++;
+                }
+            }
+        }
+
+        if(toFill > 0) {
+            pointsTxt.style.display = 'block';
+            pointsTxt.innerHTML = toFill + ' nog te vullen';
+        }else{
+            finalizeBtn.onclick = function () {
+                document.getElementById('counter').style.display = 'none';
+                build(3);
+            };
+        }
+    }
+
+
+    values.sort(function (a,b) {
+        if(a[0] < b[0]) { return -1; }
+        if(a[0] > b[0]) { return 1; }
+        return 0;
+    });
+
+    build(1);
+
+    finalizeBtn.onclick = function () {
+        finalizeBtn.innerHTML = 'Afronden';
+        finalizeBtn.style.display = 'none';
+
+        values.sort(function (a,b) {
+            if(a[2] < b[2]) { return 1; }
+            if(a[2] > b[2]) { return -1; }
+            return 0;
+        });
+
+        build(2);
+    };
+
+</script>
+
+</body></html>
